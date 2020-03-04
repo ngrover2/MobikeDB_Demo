@@ -1,0 +1,2 @@
+# MobikeDB_Demo
+For certain tasks that need manipulation of data stored in the database using the tools provided by the database itself - like stored procedures, functions and triggers - provide better performance, consistency and reliability than writing custom application code. Using a bike rental company's data model, the project demonstrates certain use cases that are better handled at the database layer itself.
