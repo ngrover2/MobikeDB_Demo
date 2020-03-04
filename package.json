@@ -1,0 +1,59 @@
+{
+  "name": "mobike",
+  "version": "1.0.0",
+  "description": "Demonstration of DB stored procs, triggers and functions",
+  "main": "",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "regenerator": true
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "create": "webpack",
+    "start": "webpack-dev-server --open",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.1",
+    "object-hash": "^1.3.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-router-dom": "^5.1.2",
+    "semantic-ui-react": "^0.88.1"
+  },
+  "proxy": "http://localhost:3000",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "cors": "^2.8.5",
+    "css-loader": "^3.2.0",
+    "d3-drag": "^1.2.4",
+    "d3-selection": "^1.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "robust-point-in-polygon": "^1.0.3",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
